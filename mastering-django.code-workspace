@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.wrappingIndent": "indent",
+		"editor.autoIndent": "keep",
+		"[python]": {
+			"editor.formatOnSave": true,
+			"editor.insertSpaces": true,
+		},
+		"[yaml]": {
+			"editor.formatOnSave": true,
+			"editor.insertSpaces": true,
+			"editor.tabSize": 2,
+			"editor.quickSuggestions": {
+				"other": true,
+				"comments": false,
+				"strings": true
+			},
+			"editor.autoIndent": "keep"
+		},
+		"files.trimTrailingWhitespace": true,
+		"files.insertFinalNewline": true,
+		"editor.rulers": [
+			{
+				"column": 120,
+				"color": "#424142"
+			},
+		],
+	}
+}
+}
