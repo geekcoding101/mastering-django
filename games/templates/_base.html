@@ -1,16 +1,22 @@
 <!DOCTYPE html>
+{% block html %}
 <html lang="en">
 <head>
+{% block head %}
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block title %}{% endblock title %}</title>
+{% endblock head %}
 </head>
 <body>
+  {% block body %}
   <header>
     <a href="{% url "games:homepage" %}"> Games Home </a>
     <a href="{% url "games:math-game" %}"> Math Game </a>
     <a href="{% url "games:anagram-game" %}"> Anagram Game </a>
   </header>
   {% block main %}{% endblock main %}
+  {% endblock body %}
 </body>
 </html>
+{% endblock html%}
